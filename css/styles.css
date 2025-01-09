@@ -1,6 +1,7 @@
 body{
     background: #fff;
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 a{
     text-decoration: none;
@@ -9,11 +10,14 @@ ul, ol{
     list-style-type: none;
 }
 
+.address{
+    font-style: normal;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -22,12 +26,12 @@ ul, ol{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
-.nav-link-Studio, .nav-link-Portfolio, .nav-link-Contacts {
+.nav-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -40,8 +44,7 @@ ul, ol{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
-}
+    }
 .motto-sect{
     background: #2e2f42;
 
@@ -49,10 +52,6 @@ ul, ol{
 
 .button{
     cursor: pointer;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -65,10 +64,13 @@ ul, ol{
 .team-sect{
     background: #f4f4fd;
 }
+.team-item{
+    background-color: #FFFFFF;
+}
 .title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -76,10 +78,11 @@ ul, ol{
 .team-tatle, .portfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .feature-title{
     font-weight: 500;
@@ -125,13 +128,13 @@ ul, ol{
     letter-spacing: 0.02em;
     color: #434455;
 }
-footer{
+.footer{
     background: #2e2f42;
 }
 .foot-logo-end {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -143,31 +146,22 @@ footer{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-.nav-link-Studio:hover,
-.nav-link-Portfolio:hover,
-.nav-link-Contacts:hover{
+.nav-link:hover, 
+.nav-link:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
 }
-.nav-link-Studio:active{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-    text-decoration: underline;
-}
-.addr-link:hover{
+
+.addr-link:hover, .addr-link:focus{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
 }
-.button:hover{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.button:hover, .button:focus{
     background: #404bbf;
 }
